@@ -1,39 +1,32 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Add Your own Experience
 
-## Available Scripts
+You can add your own experience by feeding data into data.js
 
-In the project directory, you can run:
+![dcdv](https://user-images.githubusercontent.com/78269625/158746508-4cd3f5a4-b6c4-4799-afe7-30777b1e0f5f.png)
+![Untitled](https://user-images.githubusercontent.com/78269625/158746518-c01f6751-55b8-4657-ad3c-7be132ae9cfd.png)
 
-### `npm start`
+# AirBnb Experience Website
+
+1. AirBnb Experience website was built on create-react-app template
+2. It uses React & CSS3
+3. Data.js contains purely the data related to the card components
+4. Cards.js with the help of CSS Styles renders the card on the landing page
+5. App.js then collates Navbar.js, Landing.js & Cards.js together and exports to index.js
+6. Index.js renders the page.
+7. There are 2 images folder: one in public directory & one in components folder
+8. Public directory is where all the card's images which are fetched from data.js are stored
+9. Components folder contains the static images like airbnb logo, collage and the star.
+
+## `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
